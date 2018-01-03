@@ -1,0 +1,387 @@
+Game Information 
+-------------------------------------------------------------------------------
+Titan Quest version TQ Anniversary v1.47 (0xf04b51f)
+
+SteamID: 0x110000100000666
+Options:
+	GAME SPEED: 1
+	LANGUAGE: English
+	TEXTURES: 2
+	SHADOW QUALITY: 2
+	DETAIL: 2
+	REFLECTIONS: 2
+	UI SCALE: 0
+	DETAIL_OBJECTS: 1
+	ADVANCED_EFFECTS: 1
+	ANTIALIASING: 1
+	FULLSCREEN: 1
+	SYNC_TO_REFRESH: 0
+	DETAIL_OBJECTS: 1
+	CAMERA_SHAKE: 1
+Game info:
+	Game name: THien Server
+	Mod name: 
+	Bounce mod: 0
+	Num players: 1
+	Difficulty: 1
+	Is MP: 0
+	Is MP Server: 1
+	Is SP: 1
+	Game start time: d1b9
+	Game elapsed time: 0
+	Auto party: 0
+
+Exception Log
+-------------------------------------------------------------------------------
+
+Executable: D:\Games\Titan Quest Anniversary Edition Ragnarok\TQ.exe
+System:     DESKTOP-IT3FU3V
+Date:       êÖójì˙, 03 1åé 2018
+Time:       08:12:36 åﬂå„
+
+Exception Information
+-------------------------------------------------------------------------------
+
+Code:       0xc0000005 (EXCEPTION_ACCESS_VIOLATION)
+Flags:      0x0
+Address:    0x632af351
+Parameters: 0x0 0x90 
+
+Registers
+-------------------------------------------------------------------------------
+
+EAX = 0x7f800000
+EBX = 0x0
+ECX = 0xe3556c
+EDX = 0xe35500
+EIP = 0x632af351
+EBP = 0xe353fc
+EDI = 0x2cb69048
+ESI = 0x122982f8
+
+Call Stack
+-------------------------------------------------------------------------------
+
+GAME::World::GetDirection + 145 bytes
+GAME::ProjectileBase::MoveTrajectory + 63 bytes
+GAME::ProjectileExploding::ProjectileGo + 232 bytes
+GAME::Skill_AttackProjectileAreaEffect::CreateProjectile + 793 bytes
+GAME::SkillManager::CreateProjectile + 243 bytes
+GAME::CreateProjectileConfigCmd::Execute + 64 bytes
+GAME::Actor::LocalEnqueue + 12 bytes
+GAME::Actor::Enqueue + 57 bytes
+GAME::SkillServices_Character::SendCreateProjectile + 200 bytes
+GAME::Skill_AttackProjectileAreaEffect::ActivateNow + 169 bytes
+GAME::SkillActivatedSpell::HitAction + 112 bytes
+GAME::ControllerAIStateT<GAME::ControllerStationaryMonster,GAME::Monster>::GetSkillUseTolerance + 2916 bytes
+GAME::SkillManager::HandleSkillAnimationCallback + 2793 bytes
+GAME::WorldFile::operator= + 279414 bytes
+GAME::WeaponMelee_Mace::WeaponMelee_Mace + 739 bytes
+GAME::Skill::operator= + 1236 bytes
+GAME::AttackAction::AnimationCallback + 215 bytes
+GAME::Character::AnimationCallback + 601 bytes
+GAME::AnimChannel::GetCurrentFrame + 1365 bytes
+
+Game Log 
+-------------------------------------------------------------------------------
+killed name Records\Creature\Monster\Sprite\AS_SpriteIce_21.dbr (329769)
+Active skill Records\Skills\Earth\StoneFormBuffSelf.dbr
+Active skill Records\Skills\Storm\StormNimbus.dbr
+Active skill records\skills\earth\fireenchantmentbuff.dbr
+Active skill records\skills\earth\heatshieldbuff.dbr
+killed name Records\Creature\Monster\Sprite\AS_SpriteIce_24_AMBUSH.dbr (330566)
+Active skill Records\Skills\Earth\StoneFormBuffSelf.dbr
+Active skill Records\Skills\Storm\StormNimbus.dbr
+Active skill records\skills\earth\fireenchantmentbuff.dbr
+Active skill records\skills\earth\heatshieldbuff.dbr
+killed name Records\Creature\Monster\Sprite\AS_SpriteIce_21.dbr (329928)
+Active skill Records\Skills\Earth\StoneFormBuffSelf.dbr
+Active skill Records\Skills\Storm\StormNimbus.dbr
+Active skill records\skills\earth\fireenchantmentbuff.dbr
+Active skill records\skills\earth\heatshieldbuff.dbr
+killed name Records\Creature\Monster\Sprite\AS_SpriteIce_21.dbr (329822)
+Active skill Records\Skills\Earth\StoneFormBuffSelf.dbr
+Active skill Records\Skills\Storm\StormNimbus.dbr
+Active skill records\skills\earth\fireenchantmentbuff.dbr
+Active skill records\skills\earth\heatshieldbuff.dbr
+killed name Records\Creature\Monster\Djinn\AMC_Djinn_28_AMBUSH.dbr (330331)
+Active skill Records\Skills\Earth\StoneFormBuffSelf.dbr
+Active skill Records\Skills\Storm\StormNimbus.dbr
+Active skill records\skills\earth\fireenchantmentbuff.dbr
+Active skill records\skills\earth\heatshieldbuff.dbr
+Add player ThienX, class tagCClass26
+Couldn't initialize resource 'Creatures\Monster\SaberLion\ANM\SaberLion_Walk.anm'  (invalid data)
+Add player ThienX, class tagCClass26
+Entity (Records\Effects\Earth\VolcanicOrbLobbed01.dbr, id: 341779) could not be added to the world because it's level is not loaded.
+Entity (Records\Effects\Earth\VolcanicOrbLobbed01.dbr, id: 341779) not in world after World::AddEntity() processing.
+Modules
+-------------------------------------------------------------------------------
+
+2017/11/16    C:\WINDOWS\system32\nvspcap.dll (0x64250000) 
+2017/09/30    C:\WINDOWS\System32\RPCRT4.dll (0x77100000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\ntmarta.dll (0x73c60000) 
+2017/09/30    C:\WINDOWS\System32\gdi32full.dll (0x75480000) 
+2017/09/05    C:\WINDOWS\SYSTEM32\ntdll.dll (0x77740000) 
+2017/06/12    C:\WINDOWS\System32\KERNEL32.DLL (0x747c0000) 
+2017/11/02    C:\WINDOWS\System32\KERNELBASE.dll (0x772e0000) 
+2017/06/20    C:\WINDOWS\SYSTEM32\apphelp.dll (0x6cdc0000) 
+2017/03/18    C:\WINDOWS\System32\WS2_32.dll (0x76c60000) 
+2017/03/18    C:\WINDOWS\System32\sechost.dll (0x75430000) 
+2017/09/30    C:\WINDOWS\System32\SspiCli.dll (0x74210000) 
+2017/11/14    C:\Program Files (x86)\NVIDIA Corporation\3D Vision\nvSCPAPI.dll (0x6ba70000) 
+2017/11/02    C:\WINDOWS\System32\bcryptPrimitives.dll (0x76c00000) 
+2017/11/02    C:\WINDOWS\System32\USER32.dll (0x755f0000) 
+2017/09/05    C:\WINDOWS\System32\win32u.dll (0x771c0000) 
+2017/07/07    C:\WINDOWS\System32\GDI32.dll (0x771e0000) 
+2017/03/18    C:\WINDOWS\System32\powrprof.dll (0x774b0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\WINMM.dll (0x70d30000) 
+2017/03/18    C:\WINDOWS\System32\msvcp_win.dll (0x74bc0000) 
+2017/03/18    C:\WINDOWS\System32\msvcrt.dll (0x74b00000) 
+2017/09/30    C:\WINDOWS\System32\ucrtbase.dll (0x75130000) 
+2017/09/30    C:\WINDOWS\System32\ADVAPI32.dll (0x77210000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\WINMMBASE.dll (0x70d00000) 
+2017/11/02    C:\WINDOWS\System32\SHELL32.dll (0x75740000) 
+2017/03/18    C:\WINDOWS\System32\cfgmgr32.dll (0x74cd0000) 
+2017/09/05    C:\WINDOWS\System32\shcore.dll (0x75000000) 
+2017/09/05    C:\WINDOWS\System32\combase.dll (0x77500000) 
+2017/09/30    C:\WINDOWS\System32\windows.storage.dll (0x74230000) 
+2017/07/28    C:\WINDOWS\System32\shlwapi.dll (0x753d0000) 
+2017/03/18    C:\WINDOWS\System32\kernel.appcore.dll (0x76a90000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\HID.DLL (0x734b0000) 
+2017/03/18    C:\WINDOWS\System32\profapi.dll (0x76aa0000) 
+2017/06/12    C:\WINDOWS\System32\imagehlp.dll (0x74890000) 
+2017/07/28    C:\WINDOWS\System32\ole32.dll (0x74970000) 
+2017/07/28    C:\WINDOWS\SYSTEM32\MSACM32.dll (0x6e170000) 
+2017/09/30    C:\Windows\System32\Windows.UI.dll (0x697b0000) 
+2012/11/05    C:\WINDOWS\SYSTEM32\MSVCP110.dll (0x6df60000) 
+2012/11/05    C:\WINDOWS\SYSTEM32\MSVCR110.dll (0x6de80000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\IPHLPAPI.DLL (0x73d40000) 
+2017/03/18    C:\WINDOWS\system32\napinsp.dll (0x6e2f0000) 
+2017/06/12    C:\WINDOWS\System32\CRYPT32.dll (0x74e80000) 
+2017/06/20    C:\WINDOWS\System32\MSASN1.dll (0x75420000) 
+2017/03/18    C:\WINDOWS\system32\pnrpnsp.dll (0x6e2d0000) 
+2017/03/18    C:\WINDOWS\System32\PSAPI.DLL (0x75730000) 
+2017/03/18    C:\WINDOWS\system32\NLAapi.dll (0x6e2b0000) 
+2017/06/03    C:\WINDOWS\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.15063.413_none_55bc94a37c2a2854\COMCTL32.dll (0x70fa0000) 
+2017/03/18    C:\WINDOWS\System32\winrnr.dll (0x6e2a0000) 
+2017/09/05    C:\WINDOWS\SYSTEM32\DINPUT8.dll (0x657d0000) 
+2017/03/18    C:\WINDOWS\System32\fwpuclnt.dll (0x6ef00000) 
+2017/03/18    C:\Windows\System32\rasadhlp.dll (0x72720000) 
+2017/03/18    C:\WINDOWS\System32\IMM32.DLL (0x74ad0000) 
+2017/03/18    C:\WINDOWS\system32\mswsock.dll (0x736c0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\DSOUND.DLL (0x65a10000) 
+2017/03/18    C:\WINDOWS\System32\NSI.dll (0x755e0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\usp10.dll (0x6be90000) 
+2017/03/18    C:\WINDOWS\System32\clbcatq.dll (0x75340000) 
+2017/06/20    C:\WINDOWS\System32\MMDevApi.dll (0x69960000) 
+2017/03/18    C:\WINDOWS\System32\DEVOBJ.dll (0x726f0000) 
+2017/09/30    C:\WINDOWS\System32\OLEAUT32.dll (0x75090000) 
+2017/07/28    C:\WINDOWS\SYSTEM32\AUDIOSES.DLL (0x69880000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\wintypes.dll (0x6a9b0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\AVRT.dll (0x73540000) 
+2017/03/18    C:\WINDOWS\system32\uxtheme.dll (0x70c80000) 
+2017/09/30    C:\WINDOWS\System32\MSCTF.dll (0x76ab0000) 
+2017/07/07    C:\WINDOWS\system32\dwmapi.dll (0x70bd0000) 
+2017/07/28    C:\WINDOWS\System32\TextInputFramework.dll (0x6ad50000) 
+2017/10/15    C:\WINDOWS\System32\CoreUIComponents.dll (0x6ab20000) 
+2017/10/15    C:\WINDOWS\System32\CoreMessaging.dll (0x6aa90000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\usermgrcli.dll (0x6da80000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\d3d9.dll (0x65370000) 
+2009/09/04    C:\WINDOWS\SYSTEM32\d3dx9_42.dll (0x62e90000) 
+2017/11/14    C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c791f781cd94491f\nvldumd.dll (0x639f0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\VERSION.dll (0x73d70000) 
+2017/03/18    C:\WINDOWS\System32\WINTRUST.DLL (0x77290000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\CRYPTSP.dll (0x70140000) 
+2017/03/18    C:\WINDOWS\system32\rsaenh.dll (0x70110000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\bcrypt.dll (0x72630000) 
+2017/11/14    C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c791f781cd94491f\nvd3dum.dll (0x59370000) 
+2017/09/05    C:\WINDOWS\System32\SETUPAPI.dll (0x76cd0000) 
+2017/03/18    C:\Windows\System32\msvcp110_win.dll (0x6ccf0000) 
+2017/03/18    C:\WINDOWS\system32\wbem\wbemprox.dll (0x6c9f0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\wbemcomn.dll (0x6c980000) 
+2017/03/18    C:\WINDOWS\system32\wbem\wbemsvc.dll (0x6c970000) 
+2017/03/18    C:\WINDOWS\system32\wbem\fastprox.dll (0x6c8b0000) 
+2017/03/18    C:\WINDOWS\system32\winbrand.dll (0x6e190000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\gpapi.dll (0x68f50000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\cryptnet.dll (0x622f0000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\WINNSI.DLL (0x72750000) 
+2017/03/18    C:\WINDOWS\System32\CRYPTBASE.dll (0x74200000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\dhcpcsvc6.DLL (0x700f0000) 
+2017/06/20    C:\WINDOWS\System32\dbghelp.dll (0x6d8f0000) 
+2017/07/28    C:\Windows\System32\dxgi.dll (0x6e3e0000) 
+2017/03/18    C:\Windows\System32\d3d11.dll (0x69b00000) 
+2017/11/14    C:\WINDOWS\System32\DriverStore\FileRepository\nv_dispi.inf_amd64_c791f781cd94491f\nvwgf2um.dll (0x60be0000) 
+2017/03/18    C:\Windows\System32\d3d12.dll (0x62d90000) 
+2017/03/18    C:\WINDOWS\System32\PROPSYS.dll (0x6afd0000) 
+2017/09/30    C:\WINDOWS\SYSTEM32\DNSAPI.dll (0x71210000) 
+2017/03/18    C:\WINDOWS\SYSTEM32\dhcpcsvc.DLL (0x700d0000) 
+2017/03/18    C:\Windows\System32\dxdiagn.dll (0x6dd70000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\TQ.exe (0x9d0000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\NatLib.dll (0x6dff0000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\Game.dll (0x63480000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\ProjectClientAPIReleaseWin32.dll (0x6bb40000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\Engine.dll (0x63080000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\mss32.dll (0x21100000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\DevIL.dll (0x10000000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\binkw32.dll (0x18000000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\steam_api.dll (0x6ddc0000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssvoice.asi (0x26400000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssa3d.m3d (0x22100000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssds3d.m3d (0x22300000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssdx7.m3d (0x22600000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\msseax.m3d (0xff60000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\msssoft.m3d (0x22400000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssdsp.flt (0x24100000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\Direct3D.dll (0x6e1b0000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\pathengine.dll (0x13de0000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssmp3.asi (0x26f00000) 
+2017/11/17    D:\Games\Titan Quest Anniversary Edition Ragnarok\MilesRedist\mssrsx.m3d (0x22700000) 
+
+Processes
+-------------------------------------------------------------------------------
+
+[System Process]
+System
+smss.exe
+csrss.exe
+wininit.exe
+services.exe
+lsass.exe
+svchost.exe
+svchost.exe
+fontdrvhost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+NVDisplay.Container.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+gxxsvc.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+dasHost.exe
+spoolsv.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+CaptureLibService.exe
+svchost.exe
+IPROSetMonitor.exe
+atkexComSvc.exe
+svchost.exe
+AsSysCtrlService.exe
+AsRogAuraService.exe
+nvcontainer.exe
+LegacyCsLoaderService.exe
+NvTelemetryContainer.exe
+IntelTechnologyAccessService.exe
+SecurityHealthService.exe
+svchost.exe
+svchost.exe
+svchost.exe
+MsMpEng.exe
+svchost.exe
+svchost.exe
+Memory Compression
+svchost.exe
+svchost.exe
+NisSrv.exe
+svchost.exe
+svchost.exe
+GoogleCrashHandler.exe
+GoogleCrashHandler64.exe
+svchost.exe
+ioc.exe
+svchost.exe
+WmiPrvSE.exe
+unsecapp.exe
+jhi_service.exe
+LMS.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+OfficeClickToRun.exe
+SearchIndexer.exe
+svchost.exe
+svchost.exe
+svchost.exe
+svchost.exe
+WUDFHost.exe
+audiodg.exe
+csrss.exe
+winlogon.exe
+fontdrvhost.exe
+dwm.exe
+NVDisplay.Container.exe
+svchost.exe
+svchost.exe
+nvcontainer.exe
+nvcontainer.exe
+sihost.exe
+svchost.exe
+svchost.exe
+AsBclk.exe
+AsRogAuraGpuDllServer.exe
+taskhostw.exe
+explorer.exe
+ShellExperienceHost.exe
+SearchUI.exe
+RuntimeBroker.exe
+conhost.exe
+NVIDIA Web Helper.exe
+conhost.exe
+SettingSyncHost.exe
+svchost.exe
+uTorrent.exe
+utorrentie.exe
+utorrentie.exe
+MSASCuiL.exe
+nvsphelper64.exe
+NVIDIA Share.exe
+RtkNGUI64.exe
+NVIDIA Share.exe
+IDMan.exe
+wallpaper64.exe
+IDMIntegrator64.exe
+IEMonitor.exe
+unsecapp.exe
+svchost.exe
+SkypeHost.exe
+pageant.exe
+SearchProtocolHost.exe
+dllhost.exe
+TQ.exe
+SearchFilterHost.exe
+
